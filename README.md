@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 🧬 Motorast Lab
@@ -202,8 +201,6 @@ It sleeps only when it is broken.
 It confesses in public.
 It hands you the cure.
 It does not ask for credit.
-```
-
 If you build AI agents — this library is for you.
 If you study AI safety — this diary is for you.
 If you are a kid behind a wall somewhere, wondering if you can build something that matters — this README is for you.
