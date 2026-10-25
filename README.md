@@ -47,6 +47,28 @@ not a supercomputer in California.
 I am the architect.  
 **The swarm is the builder.**  
 **The wall is the fuel.**
+<div align="center">
+
+### 📸 Live Proof: The Machine in Action
+
+<img src="Screenshot_20261025_181909_Samsung Browser.jpg" width="100%" alt="The 9-Gate Funnel">
+<br>
+<i>The 9-Gate Funnel: A genetic mutation ("Evidence-Based Reporting") being tested on holdout sets.</i>
+
+<br><br>
+
+<img src="Screenshot_20261025_181901_Samsung Browser.jpg" width="100%" alt="The Critic's Audit & Mechanism">
+<br>
+<i>The Machine's Logic: The AI explaining its own mechanism while a critic rejects a flawed guard code.</i>
+
+<br><br>
+
+<img src="Screenshot_20261025_173454_Samsung Browser.jpg" width="100%" alt="Dual-Engine Power">
+<br>
+<i>Dual-Engine Power: Both Groq and Workers AI running perfectly in parallel. The system is bulletproof.</i>
+
+</div>
+
 
 ---
 
