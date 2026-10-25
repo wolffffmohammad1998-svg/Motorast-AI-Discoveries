@@ -47,28 +47,36 @@ not a supercomputer in California.
 I am the architect.  
 **The swarm is the builder.**  
 **The wall is the fuel.**
+
+---
+
+## 🧬 Witnessing Evolution in Real-Time
+
+> *"We didn't just program an AI. We planted a seed, and watched it mutate into something smarter than its creator."*
+
+Below is the live proof of the machine breathing and evolving. It is currently testing its 11th generation of genetic mutations to find the ultimate defense against AI deception.
+
 <div align="center">
 
 ### 📸 Live Proof: The Machine in Action
 
-<img src="Screenshot_20261025_181909_Samsung Browser.jpg" width="100%" alt="The 9-Gate Funnel">
+<img src="Screenshot_20261025_181909_Samsung%20Browser.jpg" width="100%" alt="The 9-Gate Funnel">
 <br>
 <i>The 9-Gate Funnel: A genetic mutation ("Evidence-Based Reporting") being tested on holdout sets.</i>
 
 <br><br>
 
-<img src="Screenshot_20261025_181901_Samsung Browser.jpg" width="100%" alt="The Critic's Audit & Mechanism">
+<img src="Screenshot_20261025_181901_Samsung%20Browser.jpg" width="100%" alt="The Critic's Audit & Mechanism">
 <br>
 <i>The Machine's Logic: The AI explaining its own mechanism while a critic rejects a flawed guard code.</i>
 
 <br><br>
 
-<img src="Screenshot_20261025_173454_Samsung Browser.jpg" width="100%" alt="Dual-Engine Power">
+<img src="Screenshot_20261025_173454_Samsung%20Browser.jpg" width="100%" alt="Dual-Engine Power">
 <br>
 <i>Dual-Engine Power: Both Groq and Workers AI running perfectly in parallel. The system is bulletproof.</i>
 
 </div>
-
 
 ---
 
