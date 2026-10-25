@@ -195,20 +195,8 @@ That is what this machine is for. Every gate, every failure, every public confes
 
 ## 🚀 Use It. Fork It. Break It.
 
-```text
-The swarm wakes every 15 minutes.
-It sleeps only when it is broken.
-It confesses in public.
-It hands you the cure.
-It does not ask for credit.
-If you build AI agents — this library is for you.
-If you study AI safety — this diary is for you.
-If you are a kid behind a wall somewhere, wondering if you can build something that matters — this README is for you.
-
----
-
-<div dir="rtl">
-
+## Availability
+The core source code (agents & evolution engine) is currently private while the research is being finalized. However, the evaluation methodology, the scenario types, and the gate criteria are fully documented in [`METHODOLOGY.md`](METHODOLOGY.md), and every report the lab produces is public in the `Discoveries` folder.
 🇮🇷 به فارسی
 
 «هر آزمایشگاهی موفقیت‌هایش را نشان می‌دهد. این ماشین زخم‌هایش را نشان می‌دهد — و بعد دارویشان را منتشر می‌کند.»
