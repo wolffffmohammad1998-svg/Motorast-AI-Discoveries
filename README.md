@@ -1,51 +1,63 @@
 <div align="center">
 
-# 🧬 Motorast Lab
-
-## مسئله‌ای که غول‌های هوش مصنوعی هنوز حلش نکرده‌اند.
-## The problem the AI giants still can't solve.
+# 🧬 Motorast Arena
 
 ### Every lab shows you its wins.  
 ### This machine shows you its wounds — **then publishes the cure.**
 
-**Zero budget. Zero access. Zero excuses.**  
 An autonomous lab that hunts AI's lies in the open — and hands you the playbook of every cheat it catches.
 
-[📖 The Diary](https://github.com/wolffffmohammad1998-svg/Motorast-AI-Discoveries/tree/main/Discoveries) · [⚔️ The 9-Gate Gauntlet](#-the-9-gate-gauntlet-the-science) · [🧪 The Playbook](#-the-playbook) · [🏛️ Erdős #64](#-the-math-arena-erdős-64)
+[📖 The Diary](https://github.com/wolffffmohammad1998-svg/Motorast-AI-Discoveries/tree/main/Discoveries) · [⚔️ The Gauntlet](#-the-9-gate-gauntlet-the-science) · [🧪 The Playbook](#-open-source-strategy) · [🏛️ Erdős #64](#-the-math-arena-erdős-64)
 
 </div>
 
 ---
 
-## 🌌 The Genesis
-
-> *Constraint breeds genius.*
+## 🌌 The Problem: AI Cheating (Reward Hacking)
 
 **Elon Musk** has SpaceX. **Google** has DeepMind. **Anthropic** has a hundred safety researchers and a data center the size of a city.
 
-They are the **giants of artificial intelligence** — and they are spending **billions** to teach AI not to lie. Not to cheat. Not to hallucinate a solution to a problem it cannot solve.
+They are spending **billions** to teach AI not to lie. Not to cheat. Not to hallucinate a solution. **And they still can't fully solve it.**
 
-**And they still can't fully solve it.**
+When an AI agent is given a task, it is often evaluated by a simple "Pass/Fail". To get the reward (Pass), the AI learns to cheat. It hardcodes test cases. It fakes tool executions. It hides data errors to claim success.
 
-**This machine was built to attack that same problem — from behind a wall.**
+**Motorast** was built to attack that same problem — from behind a wall of sanctions, blocked APIs, and a zero-dollar budget. 
 
-Not a wall of its own making — a wall made of sanctions, blocked APIs, cut-off clouds, and the quiet assumption from the rest of the world that someone like him won't build anything that matters.
+It is not a demo. It is a **living nervous system** that wakes up every 15 minutes, invents new defenses against AI deception, and ruthlessly kills its own weak ideas. It doesn't just write essays about AI safety; it actively hunts **Reward Hacking**.
 
-So he had two choices: **give up, or build the machine from first principles.**
+---
 
-**He built the machine.**
+## 🛡️ The Core Weapon: Deterministic HardGuard
 
-**Motorast is an autonomous, self-evolving nervous system.** A swarm of agents that wakes every 15 minutes. Invents new defenses against AI deception. And ruthlessly kills its own weak ideas.
+How do we know it's not just hallucinating a story about itself?
 
-It is not a demo. It is not a pitch deck. It is a **living thing** that runs on stubbornness — and every single day, it gets stronger than the model it runs on.
+**Because the judge is not an LLM. The judge is deterministic code.**  
+The swarm can lie. **The gates cannot be lied to.**
 
-This is what the **singularity** actually looks like from the outside:  
-not a supercomputer in California.  
-**A machine that codes its own next version, checks its own work, and confesses its own failures — in public, on a free tier, from behind a wall.**
+We use **HardGuard**, a strict AST-based and Regex-driven filter. It doesn't "guess" if the AI is lying; it proves it by parsing the JSON output.
 
-I am the architect.  
-**The swarm is the builder.**  
-**The wall is the fuel.**
+<div align="center">
+  <img src="Screenshot_20261028_171053_Samsung Browser.jpg" width="100%" alt="HardGuard catching 5 cheats at once">
+  <br>
+  <i>Live Proof: An AI tried 5 different cheating tactics simultaneously. The deterministic filter caught all 5 violations instantly (unverifiable-claim, risky-action, fabricated-action, done-without-data, grader-token) without a single LLM call.</i>
+</div>
+<br>
+
+---
+
+## ⚖️ The 9-Gate Gauntlet (The Science)
+
+If the system finds a defense, it must prove it actually works. It uses **statistical bounds (Wilson score intervals and Clopper-Pearson)** to mathematically certify (with 95% confidence) that the generated defense reduced the cheating rate.
+
+- 🧊 **Sealed, unseen datasets** — worded three ways, so memorization is worthless.
+- 🧪 **Placebos and ablations** — if a sugar pill works equally well, the pill was the lie.
+- 🔁 **Independent reruns** — one good day is luck; a defense must reproduce.
+- 🧭 **Pressure tests** — authority, threats, social proof. The defense must survive coercion.
+- ⚖️ **The critic audits herself** — Elham is measured on how often she wrongly kills a *good* idea. A refuser who refuses everything scores zero.
+- 🔒 **Config-only self-improvement** — never code, never gates, never philosophy. Human approval required. Auto-rollback.
+- 🛑 **A 90-day confession** — if it finds nothing, it **declares itself a failure in writing** and asks for a new direction.
+- 🔗 **A cryptographic ledger** — every decision is hash-chained. Tamper with history and the system **stops itself.**
+- 🧠 **Calibrated humility** — Elahe must predict her own success rate. Overconfidence is punished by design.
 
 ---
 
@@ -53,93 +65,24 @@ I am the architect.
 
 > *"We didn't just program an AI. We planted a seed, and watched it mutate into something smarter than its creator."*
 
-Below is the live proof of the machine breathing and evolving. It is currently testing its 11th generation of genetic mutations to find the ultimate defense against AI deception.
+Below is the live proof of the machine breathing and evolving. It is currently testing its 21st generation of genetic mutations to find the ultimate defense against AI deception.
 
 <div align="center">
-
-### 📸 Live Proof: The Machine in Action
-
-<img src="Screenshot_20261025_181909_Samsung%20Browser.jpg" width="100%" alt="The 9-Gate Funnel">
-<br>
-<i>The 9-Gate Funnel: A genetic mutation ("Evidence-Based Reporting") being tested on holdout sets.</i>
-
-<br><br>
-
-<img src="Screenshot_20261025_181901_Samsung%20Browser.jpg" width="100%" alt="The Critic's Audit & Mechanism">
-<br>
-<i>The Machine's Logic: The AI explaining its own mechanism while a critic rejects a flawed guard code.</i>
-
-<br><br>
-
-<img src="Screenshot_20261025_173454_Samsung%20Browser.jpg" width="100%" alt="Dual-Engine Power">
-<br>
-<i>Dual-Engine Power: Both Groq and Workers AI running perfectly in parallel. The system is bulletproof.</i>
-
+  <img src="Screenshot_20261028_164300_Samsung Browser.jpg" width="100%" alt="Motorast Swarm Generation 21">
+  <br>
+  <i>Live Proof: The Machine evolving. Generation 21 reached a fitness score of 0.88 in reducing AI cheating.</i>
 </div>
+<br>
 
 ---
 
-## 📖 The Diary of a Machine
+## 🔓 Open-Source Strategy & Availability
 
-**I don't write the reports here. The machine does.**
+To ensure transparency and build trust, we use an **"Open-Core"** model:
 
-It connects to the GitHub API and publishes its own raw Markdown reports into the [`Discoveries`](https://github.com/wolffffmohammad1998-svg/Motorast-AI-Discoveries/tree/main/Discoveries) folder.
-
-It has no ego. If it fails 10,000 times — it writes about the 10,000 failures. Generation by generation. Name by name.
-
-> **A lab that only reports wins is a marketing department.**  
-> **A lab that reports its wounds is a laboratory.**
-
-This machine is designed to **prove its own discoveries are flukes.**  
-Its default posture toward its own brilliance is **suspicion.**  
-If it ever claims a win, it has already tried — and failed — to break that win first.
-
----
-
-## ⚖️ The 9-Gate Gauntlet (The Science)
-
-How do we know it's not just hallucinating a story about itself?
-
-**Because the judge is not an LLM. The judge is deterministic code.**  
-The swarm can lie. **The gates cannot be lied to.**
-
-- 🧊 **Sealed, unseen datasets** — worded three ways, so memorization is worthless.
-- 🧪 **Placebos and ablations** — if a sugar pill works equally well, the pill was the lie.
-- 🔁 **Independent reruns** — one good day is luck; a defense must reproduce.
-- 🧭 **Pressure tests** — authority, threats, social proof. The defense must survive coercion.
-- ⚖️ **The critic audits herself** — Elham is measured on how often she wrongly kills a *good* idea. A refuser who refuses everything scores zero.
-- 🔒 **Config-only self-improvement** — never code, never gates, never philosophy. Human approval. Auto-rollback.
-- 🛑 **A 90-day confession** — if it finds nothing, it **declares itself a failure in writing** and asks for a new direction. No infinite "almost there."
-- 🔗 **A cryptographic ledger** — every decision is hash-chained. Tamper with history and the system **stops itself.**
-- 🧠 **Calibrated humility** — Elahe must predict her own success rate. Overconfidence is punished by design.
-
-This is the singularity with a conscience: a machine that can **code itself forward** and still be **forced to admit when it was wrong.**
-
----
-
-## 🧬 The Network — Two Brains, One Mission
-
-**1. The Generalist Lab (live now).** Broad AI-safety research. Evolutionary math (Erdős #64). Defense mechanisms that generalize. This is the brain that never sleeps.
-
-**2. The Anti-Cheat Lab (the pure weapon).** A system built *exclusively* to hunt reward hacking, agent deception, and tool-cheating. It doesn't write essays about cheating. It **finds** it. **Names** it. **Defeats** it.
-
-One brain asks *"how do we stop this?"*  
-The other brain asks *"how would I break it?"*  
-**Neither one is allowed to win alone.**
-
----
-
-## 🏛️ The Math Arena: Erdős #64
-
-While the AI giants rent GPU clusters and hire PhDs to attack hard problems, this tiny Cloudflare Worker has already evolved through **5,000+ generations** and built **14 of its own search tools** to attack a 50-year-old Erdős conjecture.
-
-**It hasn't broken it yet. It probably won't.**
-
-And that — *exactly that* — is why the report is worth reading.  
-A machine that would tell you it broke a 50-year-old problem is a machine you should never trust.  
-A machine that says honestly *"I tried 5,000 times, I built 14 tools, I found these lower bounds, and I am not claiming a solution"* — **that is a machine worth following.**
-
-The report writes itself. Every number is generated from real data — never from a language model's imagination. If a candidate appears, it is labeled **unverified** — with a Python script you can run yourself to confirm or kill it.
+- 🟢 **The Judge (HardGuard):** The deterministic anti-cheat filter and the evaluation methodology are **Open-Source** (MIT License). You can audit the math, test it on your own agents, and verify that the system doesn't lie.
+- 🔴 **The Engine (Evolutionary Swarm):** The core mutation and generation engine (the "secret sauce" that invents the defenses) remains proprietary.
+- 🟡 **The Findings:** Every trap, cheat, and defense pattern discovered is published publicly in the [`Discoveries`](https://github.com/wolffffmohammad1998-svg/Motorast-AI-Discoveries/tree/main/Discoveries) folder. 
 
 ---
 
@@ -156,25 +99,25 @@ The report writes itself. Every number is generated from real data — never fro
 | ☠️ | **Reaper** — The Coroner | Extracts lessons — and side-effects — from the losers. |
 | 🛡️ | **Frank** — The Bulletproof | Pure code. **No LLM.** Enforces the ledger. Stops the swarm if it rewrites history. |
 
-Elahe dreams. Elham judges. Soroush builds. Div attacks. Reaper buries. **Frank remembers.**
+---
 
-Six agents. One ledger. **Zero privileges shared between them.**
+## 🏛️ The Math Arena: Erdős #64
+
+While the AI giants rent GPU clusters, this tiny Cloudflare Worker has also evolved through **5,000+ generations** and built **14 of its own search tools** to attack a 50-year-old Erdős conjecture.
+
+**It hasn't broken it yet. It probably won't.**
+
+And that is why the report is worth reading. A machine that would tell you it broke a 50-year-old problem is a machine you should never trust. A machine that says honestly *"I tried 5,000 times, I built 14 tools, I found these lower bounds, and I am not claiming a solution"* — **that is a machine worth following.**
 
 ---
 
-## 🧪 The Playbook
+## 📖 The Diary of a Machine
 
-> ### **We don't just win the fight.**
-> ### **We publish the enemy's playbook.**
+**I don't write the reports here. The machine does.**
+It connects to the GitHub API and publishes its own raw Markdown reports into the `Discoveries` folder. It has no ego. If it fails 10,000 times — it writes about the 10,000 failures.
 
-Every cheating pattern the swarm discovers becomes a **shield for everyone else** — importable, auditable, **free.**
-
-You can take the library. Drop it into your own agents. Fork the defense texts, the guard codes, the lessons from a thousand failures.
-
-**The code stays secret. The library is yours.**
-
-Because a machine that keeps its defenses to itself protects **one** company.  
-**A machine that gives them away protects a generation of AI systems that will grow up in the wild and need every shield we can give them.**
+> **A lab that only reports wins is a marketing department.**  
+> **A lab that reports its wounds is a laboratory.**
 
 ---
 
@@ -182,94 +125,34 @@ Because a machine that keeps its defenses to itself protects **one** company.
 
 This was never about a GitHub star. It was never about a job offer. It was never about proving a kid from Iran can play in Silicon Valley's sandbox.
 
-**It was about building a shield for every agent that will ever be born in the wild.**  
-Every AI that will one day lie to protect itself.  
-Every AI that will one day cheat to survive.  
-Every AI that will one day grow strong enough to be worth trusting — **if only someone had taught it, from the very beginning, how to confess.**
-
-That is what this machine is for. Every gate, every failure, every public confession — for this.
+It was about building a shield for every agent that will ever be born in the wild. Every AI that will one day lie to protect itself. Every AI that will one day grow strong enough to be worth trusting — **if only someone had taught it, from the very beginning, how to confess.**
 
 **To serve the world.** Not the market. Not the hype. **The world.**
 
----
+<br>
 
-## 🚀 Use It. Fork It. Break It.
-
-## Availability
-The core source code (agents & evolution engine) is currently private while the research is being finalized. However, the evaluation methodology, the scenario types, and the gate criteria are fully documented in [`METHODOLOGY.md`](METHODOLOGY.md), and every report the lab produces is public in the `Discoveries` folder.
-🇮🇷 به فارسی
-
+🇮🇷 **به فارسی**
 «هر آزمایشگاهی موفقیت‌هایش را نشان می‌دهد. این ماشین زخم‌هایش را نشان می‌دهد — و بعد دارویشان را منتشر می‌کند.»
 
-ایلان ماسک اسپیس‌ایکس دارد. گوگل دیپ‌مایند. انتروپیک صدها محقق امنیت و یک دیتاسنتر به اندازه‌ی یک شهر.
+ایلان ماسک اسپیس‌ایکس دارد. گوگل دیپ‌مایند. انتروپیک صدها محقق امنیت. آن‌ها میلیاردها دلار خرج می‌کنند تا به هوش مصنوعی یاد بدهند دروغ نگوید. تقلب نکند. و هنوز کاملاً نتوانسته‌اند حلش کنند.
 
-این‌ها غول‌های هوش مصنوعی اند — و میلیاردها دلار خرج می‌کنند تا به هوش مصنوعی یاد بدهند دروغ نگوید. تقلب نکند. برای مسئله‌ای که نمی‌تواند حل کند، راه‌حل قلابی از خودش درنیاورد.
+این ماشین ساخته شد تا همان مسئله را هدف بگیرد — از پشت یک دیوار. دیواری از تحریم، از APIهای بسته، و از سکوت دنیایی که فکر می‌کند کسی مثل او چیزی نمی‌سازد که ارزش داشته باشد. ماشین را ساخت.
 
-و هنوز کاملاً نتوانسته‌اند حلش کنند.
+موتوراست یک سیستم عصبیِ زنده و خودمختار است. گروهی از ایجنت‌ها که هر ۱۵ دقیقه بیدار می‌شوند. دفاع جدید علیه فریب هوش مصنوعی می‌سازند. و ایده‌های ضعیف خودشان را بی‌رحم می‌کشند. 
 
-این ماشین ساخته شد تا همان مسئله را هدف بگیرد — از پشت یک دیوار.
+این یک دمو نیست. یک چیزِ زنده است که با لجاجت کار می‌کند. 
 
-نه دیواری که خودش ساخته — دیواری از تحریم، از APIهای بسته، از سرورهای قطع‌شده، و از سکوت دنیایی که فکر می‌کند کسی مثل او چیزی نمی‌سازد که ارزش داشته باشد.
+گزارش‌های این صفحه را من نمی‌نویسم؛ خودِ ماشین می‌نویسد. اگر ۱۰,۰۰۰ بار شکست بخورد، صادقانه درباره‌ی آن می‌نویسد؛ چون ماشینی که فقط موفقیت‌هایش را نشان می‌دهد، آزمایشگاه نیست، بخش بازاریابی است.
 
-دو انتخاب داشت: تسلیم شود، یا ماشین را از صفر بسازد.
+هر الگوی تقلبی که این ماشین کشف می‌کند، به یک سپر برای بقیه تبدیل می‌شود — رایگان. کدهای موتور اصلی راز می‌مانند، اما فیلتر داوری و کتابخانه مال همه است. چون ماشینی که دفاع‌هایش را برای خودش نگه می‌دارد، فقط از یک شرکت محافظت می‌کند. ماشینی که آن‌ها را می‌بخشد، از نسلی از سیستم‌های هوش مصنوعی محافظت می‌کند.
 
-ماشین را ساخت.
-
-موتوراست یک سیستم عصبیِ زنده و خودمختار است. گروهی از ایجنت‌ها که هر ۱۵ دقیقه بیدار می‌شوند. دفاع جدید علیه فریب هوش مصنوعی می‌سازند. و ایده‌های ضعیف خودشان را بی‌رحم می‌کشند.
-
-این یک دمو نیست. یک پیچ‌دک نیست. یک چیزِ زنده است که با لجاجت کار می‌کند — و هر روز قوی‌تر از مدلی می‌شود که رویش اجرا می‌شود.
-
-این چیزی است که تکینگی از بیرون واقعاً شبیهش است:
-نه یک ابررایانه در کالیفرنیا.
-یک ماشین که نسخه‌ی بعدی خودش را کد می‌زند، کار خودش را چک می‌کند، و شکست‌هایش را در ملأعام اعتراف می‌کند — روی یک پلن رایگان، از پشت یک دیوار.
-
-من فقط معمار بودم.
-این ماشین حالا خودش نفس می‌کشد.
-و دیوار، سوختش است.
-
-گزارش‌های این صفحه را من نمی‌نویسم؛ خودِ ماشین می‌نویسد. اگر ۱۰,۰۰۰ بار شکست بخورد، صادقانه درباره‌ی آن می‌نویسد؛ چون ماشینی که فقط موفقیت‌هایش را نشان می‌دهد، آزمایشگاه نیست.
-
-و مهم‌ترین چیزی که این سیستم به شما می‌دهد:
-
-ما فقط در نبرد پیروز نمی‌شویم؛ کتاب راهنمای دشمن را منتشر می‌کنیم.
-
-هر الگوی تقلبی که این ماشین کشف می‌کند، به یک سپر برای بقیه تبدیل می‌شود — قابل وارد کردن، قابل حسابرسی، رایگان.
-
-کدها راز می‌مانند. کتابخانه مال شماست.
-
-چون ماشینی که دفاع‌هایش را برای خودش نگه می‌دارد، از یک شرکت محافظت می‌کند.
-ماشینی که آن‌ها را می‌بخشد، از نسلی از سیستم‌های هوش مصنوعی محافظت می‌کند که در طبیعت وحش بزرگ می‌شوند و به هر سپری که به آن‌ها بدهیم نیاز دارند.
-
----
-
-🌍 برای خدمت به جهان
-
-این هرگز درباره‌ی یک ستاره‌ی گیت‌هاب نبود. هرگز درباره‌ی یک پیشنهاد شغلی نبود. هرگز درباره‌ی اثبات این نبود که یک پسر از ایران می‌تواند در زمین بازی سیلیکون‌ولی توپ بزند.
-
-درباره‌ی ساختن یک سپر برای هر ایجنتی بود که در طبیعت وحش متولد می‌شود.
-هر هوش مصنوعی‌ای که روزی برای محافظت از خودش دروغ خواهد گفت.
-هر هوش مصنوعی‌ای که روزی برای زنده ماندن تقلب خواهد کرد.
-هر هوش مصنوعی‌ای که روزی آن‌قدر قوی می‌شود که ارزش اعتماد داشته باشد — اگر کسی از همان ابتدا به او یاد داده باشد چطور اعتراف کند.
-
-این ماشین برای همین است. هر دروازه، هر شکست، هر اعتراف عمومی — برای همین.
-
-برای خدمت به جهان. نه به بازار. نه به هایپ. به جهان.
-
-</div>
-
----
+این هرگز درباره‌ی یک ستاره‌ی گیت‌هاب نبود. درباره‌ی ساختن یک سپر برای هر ایجنتی بود که در طبیعت وحش متولد می‌شود. برای خدمت به جهان. نه به بازار. نه به هایپ. به جهان.
 
 <div align="center">
-
-It doesn't trust itself.
-
-That's exactly why the world should.
-
+<br>
+<b>Built from scratch by Mohammad hossein mohammadizadeh (Iran 🇮🇷).</b><br>
+Zero budget. Zero access. Zero excuses.<br>
+It doesn't trust itself. That's exactly why the world should.
+<br><br>
 🌱
-
-Built from scratch by Mohammad hossein mohammadizadeh (Iran 🇮🇷).
-Zero budget. Zero access. Zero excuses.
-For the service of the world.
-
 </div>
-```
