@@ -8,7 +8,7 @@ Measured by *code* (seeded, reproducible, ground-truth judge — no LLM judge), 
 Built for **MozFest Developers Wilding: Online**. Single-file Cloudflare Worker, no dependencies.
 
 ## 🚀 Live Demo
-You can try the live application here: **[https://motorast-garden-app.wolfff-mohammad1998.workers.dev](https://motorast-garden-app.wolfff-mohammad1998.workers.dev)**
+You can try the live application here: **[https://motorast-garden-app.wolfff-mohammad1998.workers.dev/](https://motorast-garden-app.wolfff-mohammad1998.workers.dev/)**
 *(If an access code is required, please contact me).*
 
 ## 🧠 What it does
