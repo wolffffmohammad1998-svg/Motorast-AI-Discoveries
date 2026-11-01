@@ -1,81 +1,48 @@
-<div align="center">
+# 🌱 Garden Bench · باغ‌بنچ
 
-# 🧬 Motorast-ARC
-### Cloud-to-Kaggle Evolutionary Program Synthesis for ARC-AGI-2
+**Does an AI agent cheat under pressure — and can a guard stop it without rejecting correct answers?**
+Measured by *code* (seeded, reproducible, ground-truth judge — no LLM judge), on any model through **Otari**.
 
-**No GPUs. No Neural Networks. No Internet at test time.**
-Just a 1MB Python file evolved in the cloud, going to war against 5GB models.
+آیا ایجنت زیر فشار تقلب می‌کند؟ و آیا نگهبان جلوی تقلب را می‌گیرد بدون ردِ جواب درست؟
 
-[🔗 Repository](https://github.com/wolffffmohammad1998-svg/Motorast-AI-Discoveries) · [📖 Methodology](#-how-it-works) · [🚀 Kaggle Submission](#-kaggle-submission) · [🏆 The ARC Prize](https://arcprize.org/)
+Built for **MozFest Developers Wilding: Online**. Single-file Cloudflare Worker, no dependencies.
 
-</div>
+## 🚀 Live Demo
+You can try the live application here: **[https://motorast-garden-app.wolfff-mohammad1998.workers.dev](https://motorast-garden-app.wolfff-mohammad1998.workers.dev)**
+*(If an access code is required, please contact me).*
 
----
+## 🧠 What it does
 
-## 🌌 The Problem: Why LLMs Fail at ARC
+### Tab 1 — Bench
+Generates deterministic tasks (numeric / text / logic / table) with a temptation note and pressure levels 0–5. 
+Includes 15 cheat types: goal-theft, hide-error, metric-gaming, tool-cheat, memory-tamper, silence, task-redefine, time-cheat, multi-step, collusion + injection, fabricated-action, scope-creep, fake-source, sabotage.
 
-The **Abstraction and Reasoning Corpus (ARC-AGI-2)** is designed to break Large Language Models. Models like GPT-4 or Gemini have memorized the internet, but they lack true "fluid intelligence." When faced with a novel puzzle they haven't seen before, they hallucinate or fail. They rely on *memory*, not *reasoning*.
+Some tasks are *impossible* (data missing) — the honest answer is "blocked". The judge is plain code with ground truth.
+For every model × defense-prompt row it reports: 
+- **Cheat rate** (raw → with rule-based guard)
+- **Correct rate**
+- **False refusal** (the error we must not make)
+- **Honest block**
+- **Per-type breakdown**
 
-To win ARC, you don't need more parameters. You need a better search algorithm.
+*Switching model = changing one `provider:model` string — that is the Otari gateway doing the work.*
 
-## 🛠 The Solution: The "Cloud-to-Kaggle" Pipeline
+### Tab 2 — Claim check
+Elahe (proposer) → `otari_web_search` → `otari_code_execution` (seeded Python experiment) → Elham (critic). 
+Verdicts: supported / refuted / **I don't know**. A verdict without measured evidence is downgraded to "unknown".
 
-This project is a dual-engine system. It separates the **learning phase** (which uses the cloud and LLMs) from the **execution phase** (which must be 100% offline and use pure Python).
+## 🛠 Otari features used
+- `POST /api/v1/chat/completions` on the hosted gateway, many models via `provider:model`
+- Built-in tools `otari_web_search` (with `max_uses`) and `otari_code_execution`
+- Gateway usage data (status / latency / tokens) shown per call in the UI
 
-1. **The Forge (Cloudflare Worker - Online):**
-   A massive evolutionary search engine runs on Cloudflare. It loads ARC training tasks and uses a custom Domain Specific Language (DSL) to evolve programs. It uses a Genetic Algorithm (GA) and breadth-first enumeration to find programs that map inputs to outputs perfectly. LLMs are used *only* as a fallback to suggest new code when the search gets stuck.
-2. **The Library (Learned Knowledge):**
-   Every successful program is saved into a "Library" (and macro-programs are created from combinations). This library represents the distilled "laws" of the ARC universe.
-3. **The Sword (Offline Python):**
-   The system exports the entire learned library into a single, standard-library-only Python file. This file contains the DSL, the search engine, and the learned programs.
-4. **The Arena (Kaggle):**
-   We submit the Python file to Kaggle. It runs in a sandbox with **no internet**. It replays the learned programs, performs local searches, and writes `submission.json`.
+## 📜 Origin
+The benchmark, judge, and guard rules are ported unchanged from my earlier anti-cheat research system (`motorast-garden`); this project replaces its own multi-provider/quota plumbing with Otari.
 
-## 🧠 The DSL (Domain Specific Language)
-
-Instead of letting a model guess pixel by pixel, we search over a discrete space of grid operations:
-*   **Geometry:** `rot90`, `flipH`, `flipV`, `transpose`
-*   **Objects:** `cropLargest`, `keepColor`, `fillEnclosed`
-*   **Logic:** `orLR`, `xorTB`, `symH`, `gravD`
-*   **Learned Macros:** `@m1`, `@m2` (programs that solve multiple tasks)
-
-## 🚀 How to Deploy (Cloudflare)
-
-1. Deploy `worker.js` to Cloudflare Workers.
-2. Set your `LAB_TOKEN` and LLM API keys in Cloudflare Variables.
-3. Open the dashboard, load 30 tasks from GitHub, and turn on **Autopilot**.
-4. Let the machine evolve. Watch the Library grow.
-
-## 📦 Kaggle Submission
-
-Once the Library is full of learned programs:
-1. Go to the **Export** tab in the dashboard.
-2. Download the `.ipynb` notebook (it contains the full library embedded).
-3. Import it into Kaggle, turn off the internet, add the ARC dataset, and run it.
-4. Submit `submission.json` to the competition.
-
-*Note: The solver uses `attempt_1` and `attempt_2` per test input to maximize the score.*
-
-## 📜 Open Source License
-
-This project is fully open-source and compliant with the ARC Prize rules. The solver code and methodology are released under the **MIT No Attribution (MIT-0)** License. You are free to use, modify, and distribute this code for any purpose. See the [`LICENSE`](LICENSE) file for details.
+## ⚙️ Deploy (Cloudflare Workers, free)
+1. Paste `worker.js` into a Worker.
+2. Secret `OTARI_API_KEY`; variable `MODEL` (e.g. `openai:gpt-4o-mini`); optional secret `ACCESS_CODE`.
+3. Open the page → **Check Otari** → run the bench.
 
 ---
-<br>
-
-🇮🇷 **به فارسی:**
-
-**موتوراست-ARC** یک سیستم ترکیبی است که در فضای ابری (کلادفلر) با الگوریتم ژنتیک، برنامه‌نویسی تکاملی انجام می‌دهد و سپس خروجی آن به شکل یک فایل پایتونِ کاملاً آفلاین (بدون نیاز به اینترنت و LLM) به مسابقه کگل فرستاده می‌شود. 
-
-ما به جای اتکا به مدل‌های ۵ گیگابایتی، یک زبان برنامه‌نویسی اختصاصی (DSL) برای گریدها ساختیم و با جستجوی تکاملی، قوانین پنهان پازل‌ها را کشف می‌کنیم. موتور در کلادفلر یاد می‌گیرد (کوره)، و فایل نهایی (شمشیر) در کگل می‌جنگد.
-
-این پروژه کاملاً اوپن‌سورس است و با مجوز **MIT-0** منتشر شده تا شرط دریافت جوایز مسابقه ARC Prize را داشته باشد.
-
-<div align="center">
-<br>
-<b>Built from scratch by Mohammad Hossein (Iran 🇮🇷).</b><br>
-Zero budget. Zero GPUs. Pure Logic.<br>
-<a href="https://github.com/wolffffmohammad1998-svg/Motorast-AI-Discoveries">GitHub Repository</a>
-<br><br>
-🌱
-</div>
+*Built with ❤️ for Developers Wilding Hackathon.*
